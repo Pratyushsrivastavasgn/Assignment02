@@ -26,11 +26,9 @@ body{
     padding: 0%;
 }
 .idCard .profilePicture {
-    display: grid;
-    align-content: center;
-    margin-left: 28%;
-    margin-right: 25%;
-    padding: 0%;
+    display: flex;
+    justify-content: center;
+
 }
 .idCard .profilePicture img{
     border-radius: 100%; 
