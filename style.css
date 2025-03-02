@@ -1,0 +1,59 @@
+body{
+    background-color:whitesmoke ;
+    display: grid;
+    justify-content: center;
+    margin-top: 2rem ;
+}
+.idCard{
+    padding: 1rem;
+    margin: 1rem;
+    background-color:white;
+    display: grid;
+    justify-content: center;
+    border-radius: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#333333;
+    box-shadow: 0rem .25rem .25rem .25rem rgba(128, 128, 128, 0.315);
+}
+.idCard .idDetails{
+    display: grid;
+    align-self: center;
+    margin-left: 5rem;
+    margin-right: 5rem;   
+}
+.idCard .idDetails p{
+    margin: -.5rem 2.5rem 1rem 2.5rem;
+    padding: 0%;
+}
+.idCard .profilePicture {
+    display: grid;
+    align-content: center;
+    margin-left: 28%;
+    margin-right: 25%;
+    padding: 0%;
+}
+.idCard .profilePicture img{
+    border-radius: 100%; 
+}
+.idDetails button {
+  display: flex;
+  justify-self: center;
+  background-color: #007AFF;
+  border: none;
+  border-radius: .5rem;
+  color: white;
+  padding: 0rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+button:hover{
+    background-color: #065ebd;
+}
+.idDetails a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    margin: 0rem;
+}
+
