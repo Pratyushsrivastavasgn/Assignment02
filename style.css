@@ -54,4 +54,8 @@ button:hover{
     padding: 1rem;
     margin: 0rem;
 }
-
+@media only screen and (max-width: 506px) {
+    div.idDetails {
+      font-size: 10px;
+    }
+  }
